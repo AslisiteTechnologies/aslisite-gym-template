@@ -1,11 +1,11 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { ArrowDownRight, ArrowRight, ArrowUpRight, Instagram, Menu, MoveUpRight } from 'lucide-react';
-import gymConfig from './gym-config.js';
+import { getProspectFromPath } from './prospects/index.js';
 import './styles.css';
 
 function App() {
-  const gym = gymConfig;
+  const gym = getProspectFromPath();
 
   React.useEffect(() => {
     document.title = gym.seoTitle || `${gym.name} · Gym`;
