@@ -1,4 +1,4 @@
-import { Arrow, Mark } from './components/Icons';
+import { Arrow } from './components/Icons';
 // @ts-ignore - prospect modules are generated as JavaScript by Agency OS.
 import { getProspect } from './prospects/index.js';
 
@@ -45,7 +45,7 @@ export default function App() {
 
     <header className="site-header">
       <a className="logo" href="/" onClick={e=>e.preventDefault()} aria-label={`${p.name} demo home`}>
-        <Mark/>{p.name}
+        {p.name}
       </a>
       <nav className="main-nav" aria-label="Demo navigation">
         <a href="#concept">The concept</a>
@@ -136,7 +136,7 @@ export default function App() {
 
     <footer>
       <div className="footer-top">
-        <div><div className="logo"><Mark/>{p.name}</div><p>Website concept.<br/>Ready to customize.</p></div>
+        <div><div className="logo">{p.name}</div><p>Website concept.<br/>Ready to customize.</p></div>
         <div><span className="eyebrow">LOCATION</span><p>{p.city || 'Business location not supplied'}</p></div>
       </div>
       <div className="footer-word" aria-hidden="true">MOVE FORWARD.</div>
