@@ -1,15 +1,11 @@
-import defaultGym from './default.js';
-import fitnessEdgePrime from './fitness-edge-prime.js';
-import testGym from './test-gym.js';
+import sample from './sample.js';
 
 const prospects = {
-  'fitness-edge-prime': fitnessEdgePrime,
-  'test-gym': testGym,
+  'sample': sample,
 };
 
-export function getProspectFromPath(pathname = window.location.pathname) {
-  const slug = pathname.replace(/^\/+|\/+$/g, '').toLowerCase();
-  return prospects[slug] || defaultGym;
+export function getProspect(slug) {
+  return prospects[slug] || null;
 }
 
-export { prospects };
+export default prospects;
