@@ -14,6 +14,8 @@ import prospectFitOrFightGym from './fit-or-fight-gym.js';
 
 import prospectTheFitnessClub from './the-fitness-club.js';
 
+import prospectHighFitnessClubAvailableOnCultFit from './high-fitness-club-available-on-cult-fit.js';
+
 const prospects = {
   'sample': sample,
 
@@ -30,6 +32,8 @@ const prospects = {
   'fit-or-fight-gym': prospectFitOrFightGym,
 
   'the-fitness-club': prospectTheFitnessClub,
+
+  'high-fitness-club-available-on-cult-fit': prospectHighFitnessClubAvailableOnCultFit,
 };
 
 export function getProspect(slug) {
