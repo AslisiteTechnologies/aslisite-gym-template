@@ -10,6 +10,8 @@ import prospectAimFitnessYelahanka from './aim-fitness-yelahanka.js';
 
 import prospectHeartBeatGym from './heart-beat-gym.js';
 
+import prospectFitOrFightGym from './fit-or-fight-gym.js';
+
 const prospects = {
   'sample': sample,
 
@@ -22,6 +24,8 @@ const prospects = {
   'aim-fitness-yelahanka': prospectAimFitnessYelahanka,
 
   'heart-beat-gym': prospectHeartBeatGym,
+
+  'fit-or-fight-gym': prospectFitOrFightGym,
 };
 
 export function getProspect(slug) {
