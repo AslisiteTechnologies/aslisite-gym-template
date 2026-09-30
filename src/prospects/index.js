@@ -24,6 +24,8 @@ import prospectHustleFitnessHsrLayout from './hustle-fitness-hsr-layout.js';
 
 import prospectEurofitGym from './eurofit-gym.js';
 
+import prospectBarbellCartelGym from './barbell-cartel-gym.js';
+
 const prospects = {
   'sample': sample,
 
@@ -50,6 +52,8 @@ const prospects = {
   'hustle-fitness-hsr-layout': prospectHustleFitnessHsrLayout,
 
   'eurofit-gym': prospectEurofitGym,
+
+  'barbell-cartel-gym': prospectBarbellCartelGym,
 };
 
 export function getProspect(slug) {
