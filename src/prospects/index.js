@@ -22,6 +22,8 @@ import prospectTheFitHouseGymJayanagar from './the-fit-house-gym-jayanagar.js';
 
 import prospectHustleFitnessHsrLayout from './hustle-fitness-hsr-layout.js';
 
+import prospectEurofitGym from './eurofit-gym.js';
+
 const prospects = {
   'sample': sample,
 
@@ -46,6 +48,8 @@ const prospects = {
   'the-fit-house-gym-jayanagar': prospectTheFitHouseGymJayanagar,
 
   'hustle-fitness-hsr-layout': prospectHustleFitnessHsrLayout,
+
+  'eurofit-gym': prospectEurofitGym,
 };
 
 export function getProspect(slug) {
