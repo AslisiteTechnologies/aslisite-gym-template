@@ -18,6 +18,8 @@ import prospectHighFitnessClubAvailableOnCultFit from './high-fitness-club-avail
 
 import prospectLiveFitnessHsrLayout from './live-fitness-hsr-layout.js';
 
+import prospectTheFitHouseGymJayanagar from './the-fit-house-gym-jayanagar.js';
+
 const prospects = {
   'sample': sample,
 
@@ -38,6 +40,8 @@ const prospects = {
   'high-fitness-club-available-on-cult-fit': prospectHighFitnessClubAvailableOnCultFit,
 
   'live-fitness-hsr-layout': prospectLiveFitnessHsrLayout,
+
+  'the-fit-house-gym-jayanagar': prospectTheFitHouseGymJayanagar,
 };
 
 export function getProspect(slug) {
