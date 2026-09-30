@@ -16,6 +16,8 @@ import prospectTheFitnessClub from './the-fitness-club.js';
 
 import prospectHighFitnessClubAvailableOnCultFit from './high-fitness-club-available-on-cult-fit.js';
 
+import prospectLiveFitnessHsrLayout from './live-fitness-hsr-layout.js';
+
 const prospects = {
   'sample': sample,
 
@@ -34,6 +36,8 @@ const prospects = {
   'the-fitness-club': prospectTheFitnessClub,
 
   'high-fitness-club-available-on-cult-fit': prospectHighFitnessClubAvailableOnCultFit,
+
+  'live-fitness-hsr-layout': prospectLiveFitnessHsrLayout,
 };
 
 export function getProspect(slug) {
