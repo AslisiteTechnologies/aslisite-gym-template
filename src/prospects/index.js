@@ -20,6 +20,8 @@ import prospectLiveFitnessHsrLayout from './live-fitness-hsr-layout.js';
 
 import prospectTheFitHouseGymJayanagar from './the-fit-house-gym-jayanagar.js';
 
+import prospectHustleFitnessHsrLayout from './hustle-fitness-hsr-layout.js';
+
 const prospects = {
   'sample': sample,
 
@@ -42,6 +44,8 @@ const prospects = {
   'live-fitness-hsr-layout': prospectLiveFitnessHsrLayout,
 
   'the-fit-house-gym-jayanagar': prospectTheFitHouseGymJayanagar,
+
+  'hustle-fitness-hsr-layout': prospectHustleFitnessHsrLayout,
 };
 
 export function getProspect(slug) {
