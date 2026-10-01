@@ -38,6 +38,8 @@ import prospectActiveFitness from './active-fitness.js';
 
 import prospectIronClanFitnessStudio from './iron-clan-fitness-studio.js';
 
+import prospectWorkoutPlus from './workout-plus.js';
+
 const prospects = {
   'sample': sample,
 
@@ -78,6 +80,8 @@ const prospects = {
   'active-fitness': prospectActiveFitness,
 
   'iron-clan-fitness-studio': prospectIronClanFitnessStudio,
+
+  'workout-plus': prospectWorkoutPlus,
 };
 
 export function getProspect(slug) {
