@@ -30,6 +30,8 @@ import prospectSriFitnessGym from './sri-fitness-gym.js';
 
 import prospectSilhouetteFitness from './silhouette-fitness.js';
 
+import prospectDFitness7 from './d-fitness-7.js';
+
 const prospects = {
   'sample': sample,
 
@@ -62,6 +64,8 @@ const prospects = {
   'sri-fitness-gym': prospectSriFitnessGym,
 
   'silhouette-fitness': prospectSilhouetteFitness,
+
+  'd-fitness-7': prospectDFitness7,
 };
 
 export function getProspect(slug) {
