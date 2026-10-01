@@ -26,6 +26,8 @@ import prospectEurofitGym from './eurofit-gym.js';
 
 import prospectBarbellCartelGym from './barbell-cartel-gym.js';
 
+import prospectSriFitnessGym from './sri-fitness-gym.js';
+
 const prospects = {
   'sample': sample,
 
@@ -54,6 +56,8 @@ const prospects = {
   'eurofit-gym': prospectEurofitGym,
 
   'barbell-cartel-gym': prospectBarbellCartelGym,
+
+  'sri-fitness-gym': prospectSriFitnessGym,
 };
 
 export function getProspect(slug) {
