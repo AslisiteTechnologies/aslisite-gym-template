@@ -40,6 +40,8 @@ import prospectIronClanFitnessStudio from './iron-clan-fitness-studio.js';
 
 import prospectWorkoutPlus from './workout-plus.js';
 
+import prospectSunFitness from './sun-fitness.js';
+
 const prospects = {
   'sample': sample,
 
@@ -82,6 +84,8 @@ const prospects = {
   'iron-clan-fitness-studio': prospectIronClanFitnessStudio,
 
   'workout-plus': prospectWorkoutPlus,
+
+  'sun-fitness': prospectSunFitness,
 };
 
 export function getProspect(slug) {
