@@ -56,6 +56,8 @@ import prospectUniqueFitness from './unique-fitness.js';
 
 import prospectOaksFittessGym from './oaks-fittess-gym.js';
 
+import prospectGaradiManeFitness from './garadi-mane-fitness.js';
+
 const prospects = {
   'sample': sample,
 
@@ -114,6 +116,8 @@ const prospects = {
   'unique-fitness': prospectUniqueFitness,
 
   'oaks-fittess-gym': prospectOaksFittessGym,
+
+  'garadi-mane-fitness': prospectGaradiManeFitness,
 };
 
 export function getProspect(slug) {
