@@ -62,6 +62,8 @@ import prospectDFitness from './d-fitness.js';
 
 import prospectIronClanGym from './iron-clan-gym.js';
 
+import prospectFitnessFormula from './fitness-formula.js';
+
 const prospects = {
   'sample': sample,
 
@@ -126,6 +128,8 @@ const prospects = {
   'd-fitness': prospectDFitness,
 
   'iron-clan-gym': prospectIronClanGym,
+
+  'fitness-formula': prospectFitnessFormula,
 };
 
 export function getProspect(slug) {
