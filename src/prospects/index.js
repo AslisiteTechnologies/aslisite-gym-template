@@ -50,6 +50,8 @@ import prospectPlayOnFitnessJpNagar from './play-on-fitness-jp-nagar.js';
 
 import prospectFit24PremiumFitnessClubTheBestGymInKengeri from './fit24-premium-fitness-club-the-best-gym-in-kengeri.js';
 
+import prospectNeverSettleFamilyFitnessStudio from './never-settle-family-fitness-studio.js';
+
 const prospects = {
   'sample': sample,
 
@@ -102,6 +104,8 @@ const prospects = {
   'play-on-fitness-jp-nagar': prospectPlayOnFitnessJpNagar,
 
   'fit24-premium-fitness-club-the-best-gym-in-kengeri': prospectFit24PremiumFitnessClubTheBestGymInKengeri,
+
+  'never-settle-family-fitness-studio': prospectNeverSettleFamilyFitnessStudio,
 };
 
 export function getProspect(slug) {
