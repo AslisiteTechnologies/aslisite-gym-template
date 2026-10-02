@@ -46,6 +46,8 @@ import prospectGreenFitnessStudioBestFitnessCenterInDoddathoguru from './green-f
 
 import prospectL7FitnessStudio from './l7-fitness-studio.js';
 
+import prospectPlayOnFitnessJpNagar from './play-on-fitness-jp-nagar.js';
+
 const prospects = {
   'sample': sample,
 
@@ -94,6 +96,8 @@ const prospects = {
   'green-fitness-studio-best-fitness-center-in-doddathoguru': prospectGreenFitnessStudioBestFitnessCenterInDoddathoguru,
 
   'l7-fitness-studio': prospectL7FitnessStudio,
+
+  'play-on-fitness-jp-nagar': prospectPlayOnFitnessJpNagar,
 };
 
 export function getProspect(slug) {
