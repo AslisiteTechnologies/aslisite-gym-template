@@ -54,6 +54,8 @@ import prospectNeverSettleFamilyFitnessStudio from './never-settle-family-fitnes
 
 import prospectUniqueFitness from './unique-fitness.js';
 
+import prospectOaksFittessGym from './oaks-fittess-gym.js';
+
 const prospects = {
   'sample': sample,
 
@@ -110,6 +112,8 @@ const prospects = {
   'never-settle-family-fitness-studio': prospectNeverSettleFamilyFitnessStudio,
 
   'unique-fitness': prospectUniqueFitness,
+
+  'oaks-fittess-gym': prospectOaksFittessGym,
 };
 
 export function getProspect(slug) {
