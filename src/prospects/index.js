@@ -70,6 +70,8 @@ import prospectJyFitness from './jy-fitness.js';
 
 import prospectSriMarutiFitnessGym from './sri-maruti-fitness-gym.js';
 
+import prospectFitZoneGym from './fit-zone-gym.js';
+
 const prospects = {
   'sample': sample,
 
@@ -142,6 +144,8 @@ const prospects = {
   'jy-fitness': prospectJyFitness,
 
   'sri-maruti-fitness-gym': prospectSriMarutiFitnessGym,
+
+  'fit-zone-gym': prospectFitZoneGym,
 };
 
 export function getProspect(slug) {
