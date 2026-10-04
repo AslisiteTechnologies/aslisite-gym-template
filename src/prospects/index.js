@@ -66,6 +66,8 @@ import prospectFitnessFormula from './fitness-formula.js';
 
 import prospectUPlankFitness from './u-plank-fitness.js';
 
+import prospectJyFitness from './jy-fitness.js';
+
 const prospects = {
   'sample': sample,
 
@@ -134,6 +136,8 @@ const prospects = {
   'fitness-formula': prospectFitnessFormula,
 
   'u-plank-fitness': prospectUPlankFitness,
+
+  'jy-fitness': prospectJyFitness,
 };
 
 export function getProspect(slug) {
