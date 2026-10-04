@@ -76,6 +76,8 @@ import prospectAbsoluteFitnessSolutionsBestGymInYelhankaNewTown from './absolute
 
 import prospectSpartanFitness from './spartan-fitness.js';
 
+import prospectDFitnessPlanet from './d-fitness-planet.js';
+
 const prospects = {
   'sample': sample,
 
@@ -154,6 +156,8 @@ const prospects = {
   'absolute-fitness-solutions-best-gym-in-yelhanka-new-town': prospectAbsoluteFitnessSolutionsBestGymInYelhankaNewTown,
 
   'spartan-fitness': prospectSpartanFitness,
+
+  'd-fitness-planet': prospectDFitnessPlanet,
 };
 
 export function getProspect(slug) {
