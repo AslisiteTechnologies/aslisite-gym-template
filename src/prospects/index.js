@@ -72,6 +72,8 @@ import prospectSriMarutiFitnessGym from './sri-maruti-fitness-gym.js';
 
 import prospectFitZoneGym from './fit-zone-gym.js';
 
+import prospectAbsoluteFitnessSolutionsBestGymInYelhankaNewTown from './absolute-fitness-solutions-best-gym-in-yelhanka-new-town.js';
+
 const prospects = {
   'sample': sample,
 
@@ -146,6 +148,8 @@ const prospects = {
   'sri-maruti-fitness-gym': prospectSriMarutiFitnessGym,
 
   'fit-zone-gym': prospectFitZoneGym,
+
+  'absolute-fitness-solutions-best-gym-in-yelhanka-new-town': prospectAbsoluteFitnessSolutionsBestGymInYelhankaNewTown,
 };
 
 export function getProspect(slug) {
