@@ -82,6 +82,8 @@ import prospectKeerthiFitness from './keerthi-fitness.js';
 
 import prospectMuscleNation from './muscle-nation.js';
 
+import prospectYashmaxxFitness2OAvailableOnCultFit from './yashmaxx-fitness-2-o-available-on-cult-fit.js';
+
 const prospects = {
   'sample': sample,
 
@@ -166,6 +168,8 @@ const prospects = {
   'keerthi-fitness': prospectKeerthiFitness,
 
   'muscle-nation': prospectMuscleNation,
+
+  'yashmaxx-fitness-2-o-available-on-cult-fit': prospectYashmaxxFitness2OAvailableOnCultFit,
 };
 
 export function getProspect(slug) {
