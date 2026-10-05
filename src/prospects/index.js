@@ -88,6 +88,8 @@ import prospectStepWithMeDanceAndFitnessStudio from './step-with-me-dance-and-fi
 
 import prospectOxyFit from './oxy-fit.js';
 
+import prospectQuadzillaFitness from './quadzilla-fitness.js';
+
 const prospects = {
   'sample': sample,
 
@@ -178,6 +180,8 @@ const prospects = {
   'step-with-me-dance-and-fitness-studio': prospectStepWithMeDanceAndFitnessStudio,
 
   'oxy-fit': prospectOxyFit,
+
+  'quadzilla-fitness': prospectQuadzillaFitness,
 };
 
 export function getProspect(slug) {
