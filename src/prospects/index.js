@@ -86,6 +86,8 @@ import prospectYashmaxxFitness2OAvailableOnCultFit from './yashmaxx-fitness-2-o-
 
 import prospectStepWithMeDanceAndFitnessStudio from './step-with-me-dance-and-fitness-studio.js';
 
+import prospectOxyFit from './oxy-fit.js';
+
 const prospects = {
   'sample': sample,
 
@@ -174,6 +176,8 @@ const prospects = {
   'yashmaxx-fitness-2-o-available-on-cult-fit': prospectYashmaxxFitness2OAvailableOnCultFit,
 
   'step-with-me-dance-and-fitness-studio': prospectStepWithMeDanceAndFitnessStudio,
+
+  'oxy-fit': prospectOxyFit,
 };
 
 export function getProspect(slug) {
