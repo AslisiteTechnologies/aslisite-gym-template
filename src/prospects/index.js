@@ -80,6 +80,8 @@ import prospectDFitnessPlanet from './d-fitness-planet.js';
 
 import prospectKeerthiFitness from './keerthi-fitness.js';
 
+import prospectMuscleNation from './muscle-nation.js';
+
 const prospects = {
   'sample': sample,
 
@@ -162,6 +164,8 @@ const prospects = {
   'd-fitness-planet': prospectDFitnessPlanet,
 
   'keerthi-fitness': prospectKeerthiFitness,
+
+  'muscle-nation': prospectMuscleNation,
 };
 
 export function getProspect(slug) {
