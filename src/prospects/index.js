@@ -90,6 +90,8 @@ import prospectOxyFit from './oxy-fit.js';
 
 import prospectQuadzillaFitness from './quadzilla-fitness.js';
 
+import prospectPrkFitness from './prk-fitness.js';
+
 const prospects = {
   'sample': sample,
 
@@ -182,6 +184,8 @@ const prospects = {
   'oxy-fit': prospectOxyFit,
 
   'quadzilla-fitness': prospectQuadzillaFitness,
+
+  'prk-fitness': prospectPrkFitness,
 };
 
 export function getProspect(slug) {
