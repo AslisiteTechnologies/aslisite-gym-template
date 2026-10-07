@@ -92,6 +92,8 @@ import prospectQuadzillaFitness from './quadzilla-fitness.js';
 
 import prospectPrkFitness from './prk-fitness.js';
 
+import prospectNityayogWonderFitnessCenter from './nityayog-wonder-fitness-center.js';
+
 const prospects = {
   'sample': sample,
 
@@ -186,6 +188,8 @@ const prospects = {
   'quadzilla-fitness': prospectQuadzillaFitness,
 
   'prk-fitness': prospectPrkFitness,
+
+  'nityayog-wonder-fitness-center': prospectNityayogWonderFitnessCenter,
 };
 
 export function getProspect(slug) {
