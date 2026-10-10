@@ -96,6 +96,8 @@ import prospectNityayogWonderFitnessCenter from './nityayog-wonder-fitness-cente
 
 import prospectSrxFitnessStudioVidyaranyapura from './srx-fitness-studio-vidyaranyapura.js';
 
+import prospectFitness360DegreeGymKereguddadhalli from './fitness-360-degree-gym-kereguddadhalli.js';
+
 const prospects = {
   'sample': sample,
 
@@ -194,6 +196,8 @@ const prospects = {
   'nityayog-wonder-fitness-center': prospectNityayogWonderFitnessCenter,
 
   'srx-fitness-studio-vidyaranyapura': prospectSrxFitnessStudioVidyaranyapura,
+
+  'fitness-360-degree-gym-kereguddadhalli': prospectFitness360DegreeGymKereguddadhalli,
 };
 
 export function getProspect(slug) {
