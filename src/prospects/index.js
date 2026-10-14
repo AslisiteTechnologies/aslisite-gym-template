@@ -100,6 +100,8 @@ import prospectFitness360DegreeGymKereguddadhalli from './fitness-360-degree-gym
 
 import prospectTitanSBoxingAcademy from './titan-s-boxing-academy.js';
 
+import prospectFitnessFeverGym from './fitness-fever-gym.js';
+
 const prospects = {
   'sample': sample,
 
@@ -202,6 +204,8 @@ const prospects = {
   'fitness-360-degree-gym-kereguddadhalli': prospectFitness360DegreeGymKereguddadhalli,
 
   'titan-s-boxing-academy': prospectTitanSBoxingAcademy,
+
+  'fitness-fever-gym': prospectFitnessFeverGym,
 };
 
 export function getProspect(slug) {
