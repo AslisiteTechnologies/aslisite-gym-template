@@ -106,6 +106,8 @@ import prospectCyborgFitnessPattandurAgraharaPrashanthLayout from './cyborg-fitn
 
 import prospectRockSGym from './rock-s-gym.js';
 
+import prospectKlub3PremiumFitnessLounge from './klub3-premium-fitness-lounge.js';
+
 const prospects = {
   'sample': sample,
 
@@ -214,6 +216,8 @@ const prospects = {
   'cyborg-fitness-pattandur-agrahara-prashanth-layout': prospectCyborgFitnessPattandurAgraharaPrashanthLayout,
 
   'rock-s-gym': prospectRockSGym,
+
+  'klub3-premium-fitness-lounge': prospectKlub3PremiumFitnessLounge,
 };
 
 export function getProspect(slug) {
