@@ -114,6 +114,8 @@ import prospectFlexitFitness from './flexit-fitness.js';
 
 import prospectNh2TheDopamineFitness from './nh2-the-dopamine-fitness.js';
 
+import prospectAceFitness from './ace-fitness.js';
+
 const prospects = {
   'sample': sample,
 
@@ -230,6 +232,8 @@ const prospects = {
   'flexit-fitness': prospectFlexitFitness,
 
   'nh2-the-dopamine-fitness': prospectNh2TheDopamineFitness,
+
+  'ace-fitness': prospectAceFitness,
 };
 
 export function getProspect(slug) {
