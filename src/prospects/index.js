@@ -120,6 +120,8 @@ import prospectBodyEdit from './body-edit.js';
 
 import prospectAskFitnessBanashankari from './ask-fitness-banashankari.js';
 
+import prospectDivineFitnessNutritionTheBestInElectronicCity from './divine-fitness-nutrition-the-best-in-electronic-city.js';
+
 const prospects = {
   'sample': sample,
 
@@ -242,6 +244,8 @@ const prospects = {
   'body-edit': prospectBodyEdit,
 
   'ask-fitness-banashankari': prospectAskFitnessBanashankari,
+
+  'divine-fitness-nutrition-the-best-in-electronic-city': prospectDivineFitnessNutritionTheBestInElectronicCity,
 };
 
 export function getProspect(slug) {
