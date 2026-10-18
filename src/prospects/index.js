@@ -118,6 +118,8 @@ import prospectAceFitness from './ace-fitness.js';
 
 import prospectBodyEdit from './body-edit.js';
 
+import prospectAskFitnessBanashankari from './ask-fitness-banashankari.js';
+
 const prospects = {
   'sample': sample,
 
@@ -238,6 +240,8 @@ const prospects = {
   'ace-fitness': prospectAceFitness,
 
   'body-edit': prospectBodyEdit,
+
+  'ask-fitness-banashankari': prospectAskFitnessBanashankari,
 };
 
 export function getProspect(slug) {
