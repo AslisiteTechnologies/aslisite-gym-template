@@ -102,6 +102,8 @@ import prospectTitanSBoxingAcademy from './titan-s-boxing-academy.js';
 
 import prospectFitnessFeverGym from './fitness-fever-gym.js';
 
+import prospectCyborgFitnessPattandurAgraharaPrashanthLayout from './cyborg-fitness-pattandur-agrahara-prashanth-layout.js';
+
 const prospects = {
   'sample': sample,
 
@@ -206,6 +208,8 @@ const prospects = {
   'titan-s-boxing-academy': prospectTitanSBoxingAcademy,
 
   'fitness-fever-gym': prospectFitnessFeverGym,
+
+  'cyborg-fitness-pattandur-agrahara-prashanth-layout': prospectCyborgFitnessPattandurAgraharaPrashanthLayout,
 };
 
 export function getProspect(slug) {
