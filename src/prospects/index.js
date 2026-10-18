@@ -110,6 +110,8 @@ import prospectKlub3PremiumFitnessLounge from './klub3-premium-fitness-lounge.js
 
 import prospectFalconFitnessPremiumGymInWhitefieldItpl from './falcon-fitness-premium-gym-in-whitefield-itpl.js';
 
+import prospectFlexitFitness from './flexit-fitness.js';
+
 const prospects = {
   'sample': sample,
 
@@ -222,6 +224,8 @@ const prospects = {
   'klub3-premium-fitness-lounge': prospectKlub3PremiumFitnessLounge,
 
   'falcon-fitness-premium-gym-in-whitefield-itpl': prospectFalconFitnessPremiumGymInWhitefieldItpl,
+
+  'flexit-fitness': prospectFlexitFitness,
 };
 
 export function getProspect(slug) {
