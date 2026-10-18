@@ -104,6 +104,8 @@ import prospectFitnessFeverGym from './fitness-fever-gym.js';
 
 import prospectCyborgFitnessPattandurAgraharaPrashanthLayout from './cyborg-fitness-pattandur-agrahara-prashanth-layout.js';
 
+import prospectRockSGym from './rock-s-gym.js';
+
 const prospects = {
   'sample': sample,
 
@@ -210,6 +212,8 @@ const prospects = {
   'fitness-fever-gym': prospectFitnessFeverGym,
 
   'cyborg-fitness-pattandur-agrahara-prashanth-layout': prospectCyborgFitnessPattandurAgraharaPrashanthLayout,
+
+  'rock-s-gym': prospectRockSGym,
 };
 
 export function getProspect(slug) {
