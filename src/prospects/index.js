@@ -124,6 +124,8 @@ import prospectDivineFitnessNutritionTheBestInElectronicCity from './divine-fitn
 
 import prospectFitnessGarage from './fitness-garage.js';
 
+import prospectOceanFitness from './ocean-fitness.js';
+
 const prospects = {
   'sample': sample,
 
@@ -250,6 +252,8 @@ const prospects = {
   'divine-fitness-nutrition-the-best-in-electronic-city': prospectDivineFitnessNutritionTheBestInElectronicCity,
 
   'fitness-garage': prospectFitnessGarage,
+
+  'ocean-fitness': prospectOceanFitness,
 };
 
 export function getProspect(slug) {
