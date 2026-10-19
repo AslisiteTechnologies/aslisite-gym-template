@@ -122,6 +122,8 @@ import prospectAskFitnessBanashankari from './ask-fitness-banashankari.js';
 
 import prospectDivineFitnessNutritionTheBestInElectronicCity from './divine-fitness-nutrition-the-best-in-electronic-city.js';
 
+import prospectFitnessGarage from './fitness-garage.js';
+
 const prospects = {
   'sample': sample,
 
@@ -246,6 +248,8 @@ const prospects = {
   'ask-fitness-banashankari': prospectAskFitnessBanashankari,
 
   'divine-fitness-nutrition-the-best-in-electronic-city': prospectDivineFitnessNutritionTheBestInElectronicCity,
+
+  'fitness-garage': prospectFitnessGarage,
 };
 
 export function getProspect(slug) {
