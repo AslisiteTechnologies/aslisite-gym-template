@@ -126,6 +126,8 @@ import prospectFitnessGarage from './fitness-garage.js';
 
 import prospectOceanFitness from './ocean-fitness.js';
 
+import prospectTeamGreenzCalicut from './team-greenz-calicut.js';
+
 const prospects = {
   'sample': sample,
 
@@ -254,6 +256,8 @@ const prospects = {
   'fitness-garage': prospectFitnessGarage,
 
   'ocean-fitness': prospectOceanFitness,
+
+  'team-greenz-calicut': prospectTeamGreenzCalicut,
 };
 
 export function getProspect(slug) {
