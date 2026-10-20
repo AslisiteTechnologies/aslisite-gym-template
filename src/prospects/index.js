@@ -134,6 +134,8 @@ import prospectGymhawkZoneCalicut from './gymhawk-zone-calicut.js';
 
 import prospectDetoxFitnessCentre from './detox-fitness-centre.js';
 
+import prospectPrimalFitnessHub from './primal-fitness-hub.js';
+
 const prospects = {
   'sample': sample,
 
@@ -270,6 +272,8 @@ const prospects = {
   'gymhawk-zone-calicut': prospectGymhawkZoneCalicut,
 
   'detox-fitness-centre': prospectDetoxFitnessCentre,
+
+  'primal-fitness-hub': prospectPrimalFitnessHub,
 };
 
 export function getProspect(slug) {
