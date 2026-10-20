@@ -140,6 +140,8 @@ import prospectAesthetix from './aesthetix.js';
 
 import prospectHyfitFitnessCentre from './hyfit-fitness-centre.js';
 
+import prospectWellnessGym from './wellness-gym.js';
+
 const prospects = {
   'sample': sample,
 
@@ -282,6 +284,8 @@ const prospects = {
   'aesthetix': prospectAesthetix,
 
   'hyfit-fitness-centre': prospectHyfitFitnessCentre,
+
+  'wellness-gym': prospectWellnessGym,
 };
 
 export function getProspect(slug) {
