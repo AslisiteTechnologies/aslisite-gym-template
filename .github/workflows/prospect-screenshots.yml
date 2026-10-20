@@ -6,18 +6,23 @@ on:
         description: 'Prospect slug (e.g. hyfit-fitness-centre)'
         required: true
         type: string
+
 permissions:
   contents: write
+
+# One shared queue for ALL prospect slugs: each run commits to main.
 concurrency:
-  group: screenshots-${{ inputs.slug }}
+  group: prospect-screenshots-main-writer
   cancel-in-progress: false
+
 jobs:
   capture:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main
           persist-credentials: true
       - uses: actions/setup-node@v4
         with:
@@ -34,14 +39,26 @@ jobs:
           PROSPECT_SLUG: ${{ inputs.slug }}
           NODE_PATH: /tmp/aslisite-screenshot-runner/node_modules
         run: node scripts/capture-prospect-screenshot.cjs
-      - name: Commit only screenshot artifact
+      - name: Commit only screenshot artifact (safe retry)
         env:
           PROSPECT_SLUG: ${{ inputs.slug }}
         run: |
+          set -euo pipefail
           git add "public/images/screenshots/${PROSPECT_SLUG}.png"
           if git diff --cached --quiet; then
             echo 'Screenshot unchanged; nothing to commit.'
             exit 0
           fi
           git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "chore: capture demo screenshot ${PROSPECT_SLUG}"
-          git push
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              echo "Screenshot committed on attempt ${attempt}"
+              exit 0
+            fi
+            echo "Push conflict; retrying ${attempt}/5"
+            sleep $((attempt * 2))
+          done
+          echo 'Could not push screenshot after 5 attempts' >&2
+          exit 1
