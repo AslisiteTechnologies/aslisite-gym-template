@@ -130,6 +130,8 @@ import prospectTeamGreenzCalicut from './team-greenz-calicut.js';
 
 import prospectShredFitnessCalicut from './shred-fitness-calicut.js';
 
+import prospectGymhawkZoneCalicut from './gymhawk-zone-calicut.js';
+
 const prospects = {
   'sample': sample,
 
@@ -262,6 +264,8 @@ const prospects = {
   'team-greenz-calicut': prospectTeamGreenzCalicut,
 
   'shred-fitness-calicut': prospectShredFitnessCalicut,
+
+  'gymhawk-zone-calicut': prospectGymhawkZoneCalicut,
 };
 
 export function getProspect(slug) {
