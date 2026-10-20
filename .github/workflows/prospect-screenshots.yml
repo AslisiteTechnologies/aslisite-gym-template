@@ -1,0 +1,47 @@
+name: Prospect demo screenshots
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: 'Prospect slug (e.g. hyfit-fitness-centre)'
+        required: true
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: screenshots-${{ inputs.slug }}
+  cancel-in-progress: false
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install screenshot runner
+        run: |
+          mkdir -p /tmp/aslisite-screenshot-runner
+          cd /tmp/aslisite-screenshot-runner
+          npm init -y >/dev/null
+          npm install --no-audit --no-fund playwright@1.58.2
+          npx playwright install --with-deps chromium
+      - name: Capture validated demo
+        env:
+          PROSPECT_SLUG: ${{ inputs.slug }}
+          NODE_PATH: /tmp/aslisite-screenshot-runner/node_modules
+        run: node scripts/capture-prospect-screenshot.cjs
+      - name: Commit only screenshot artifact
+        env:
+          PROSPECT_SLUG: ${{ inputs.slug }}
+        run: |
+          git add "public/images/screenshots/${PROSPECT_SLUG}.png"
+          if git diff --cached --quiet; then
+            echo 'Screenshot unchanged; nothing to commit.'
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "chore: capture demo screenshot ${PROSPECT_SLUG}"
+          git push
