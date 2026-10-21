@@ -10,10 +10,11 @@ on:
 permissions:
   contents: write
 
-# One shared queue for ALL prospect slugs: each run commits to main.
-concurrency:
-  group: prospect-screenshots-main-writer
-  cancel-in-progress: false
+# IMPORTANT: Do not use a shared Actions concurrency group here.
+# GitHub Actions permits only one pending run per group. New screenshot
+# requests would cancel older pending requests even when cancel-in-progress
+# is false. Independent runs use the rebase/push retry below to coordinate
+# commits to main without dropping prospect screenshot jobs.
 
 jobs:
   capture:
