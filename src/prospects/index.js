@@ -152,6 +152,8 @@ import prospectMfitt from './mfitt.js';
 
 import prospectActiveoneFitnessGym from './activeone-fitness-gym.js';
 
+import prospectG4FitnessCentre from './g4-fitness-centre.js';
+
 const prospects = {
   'sample': sample,
 
@@ -306,6 +308,8 @@ const prospects = {
   'mfitt': prospectMfitt,
 
   'activeone-fitness-gym': prospectActiveoneFitnessGym,
+
+  'g4-fitness-centre': prospectG4FitnessCentre,
 };
 
 export function getProspect(slug) {
