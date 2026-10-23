@@ -166,6 +166,8 @@ import prospectMLifeFitnessCenter from './m-life-fitness-center.js';
 
 import prospectJjUnisexFitnessCenterKunnamthanam from './jj-unisex-fitness-center-kunnamthanam.js';
 
+import prospectO2Gym from './o2-gym.js';
+
 const prospects = {
   'sample': sample,
 
@@ -334,6 +336,8 @@ const prospects = {
   'm-life-fitness-center': prospectMLifeFitnessCenter,
 
   'jj-unisex-fitness-center-kunnamthanam': prospectJjUnisexFitnessCenterKunnamthanam,
+
+  'o2-gym': prospectO2Gym,
 };
 
 export function getProspect(slug) {
