@@ -162,6 +162,8 @@ import prospectDlagym from './dlagym.js';
 
 import prospectFitHeavenLadiesGym from './fit-heaven-ladies-gym.js';
 
+import prospectMLifeFitnessCenter from './m-life-fitness-center.js';
+
 const prospects = {
   'sample': sample,
 
@@ -326,6 +328,8 @@ const prospects = {
   'dlagym': prospectDlagym,
 
   'fit-heaven-ladies-gym': prospectFitHeavenLadiesGym,
+
+  'm-life-fitness-center': prospectMLifeFitnessCenter,
 };
 
 export function getProspect(slug) {
