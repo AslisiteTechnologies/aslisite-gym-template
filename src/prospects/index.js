@@ -174,6 +174,8 @@ import prospectReshapeMultigymFitnessCentre from './reshape-multigym-fitness-cen
 
 import prospectTurtlesFitnessSolutions from './turtles-fitness-solutions.js';
 
+import prospectFitnessThaiCalicut from './fitness-thai-calicut.js';
+
 const prospects = {
   'sample': sample,
 
@@ -350,6 +352,8 @@ const prospects = {
   'reshape-multigym-fitness-centre': prospectReshapeMultigymFitnessCentre,
 
   'turtles-fitness-solutions': prospectTurtlesFitnessSolutions,
+
+  'fitness-thai-calicut': prospectFitnessThaiCalicut,
 };
 
 export function getProspect(slug) {
