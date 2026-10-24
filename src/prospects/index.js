@@ -170,6 +170,8 @@ import prospectO2Gym from './o2-gym.js';
 
 import prospectXhaleFitnessFunctionalFitness from './xhale-fitness-functional-fitness.js';
 
+import prospectReshapeMultigymFitnessCentre from './reshape-multigym-fitness-centre.js';
+
 const prospects = {
   'sample': sample,
 
@@ -342,6 +344,8 @@ const prospects = {
   'o2-gym': prospectO2Gym,
 
   'xhale-fitness-functional-fitness': prospectXhaleFitnessFunctionalFitness,
+
+  'reshape-multigym-fitness-centre': prospectReshapeMultigymFitnessCentre,
 };
 
 export function getProspect(slug) {
