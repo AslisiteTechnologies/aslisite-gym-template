@@ -172,6 +172,8 @@ import prospectXhaleFitnessFunctionalFitness from './xhale-fitness-functional-fi
 
 import prospectReshapeMultigymFitnessCentre from './reshape-multigym-fitness-centre.js';
 
+import prospectTurtlesFitnessSolutions from './turtles-fitness-solutions.js';
+
 const prospects = {
   'sample': sample,
 
@@ -346,6 +348,8 @@ const prospects = {
   'xhale-fitness-functional-fitness': prospectXhaleFitnessFunctionalFitness,
 
   'reshape-multigym-fitness-centre': prospectReshapeMultigymFitnessCentre,
+
+  'turtles-fitness-solutions': prospectTurtlesFitnessSolutions,
 };
 
 export function getProspect(slug) {
