@@ -168,6 +168,8 @@ import prospectJjUnisexFitnessCenterKunnamthanam from './jj-unisex-fitness-cente
 
 import prospectO2Gym from './o2-gym.js';
 
+import prospectXhaleFitnessFunctionalFitness from './xhale-fitness-functional-fitness.js';
+
 const prospects = {
   'sample': sample,
 
@@ -338,6 +340,8 @@ const prospects = {
   'jj-unisex-fitness-center-kunnamthanam': prospectJjUnisexFitnessCenterKunnamthanam,
 
   'o2-gym': prospectO2Gym,
+
+  'xhale-fitness-functional-fitness': prospectXhaleFitnessFunctionalFitness,
 };
 
 export function getProspect(slug) {
