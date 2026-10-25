@@ -180,6 +180,8 @@ import prospectEcoFitnessMathottam from './eco-fitness-mathottam.js';
 
 import prospectFitnessFactory from './fitness-factory.js';
 
+import prospectGynoGymCalicut from './gyno-gym-calicut.js';
+
 const prospects = {
   'sample': sample,
 
@@ -362,6 +364,8 @@ const prospects = {
   'eco-fitness-mathottam': prospectEcoFitnessMathottam,
 
   'fitness-factory': prospectFitnessFactory,
+
+  'gyno-gym-calicut': prospectGynoGymCalicut,
 };
 
 export function getProspect(slug) {
