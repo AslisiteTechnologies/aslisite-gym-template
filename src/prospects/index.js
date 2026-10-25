@@ -176,6 +176,8 @@ import prospectTurtlesFitnessSolutions from './turtles-fitness-solutions.js';
 
 import prospectFitnessThaiCalicut from './fitness-thai-calicut.js';
 
+import prospectEcoFitnessMathottam from './eco-fitness-mathottam.js';
+
 const prospects = {
   'sample': sample,
 
@@ -354,6 +356,8 @@ const prospects = {
   'turtles-fitness-solutions': prospectTurtlesFitnessSolutions,
 
   'fitness-thai-calicut': prospectFitnessThaiCalicut,
+
+  'eco-fitness-mathottam': prospectEcoFitnessMathottam,
 };
 
 export function getProspect(slug) {
