@@ -182,6 +182,8 @@ import prospectFitnessFactory from './fitness-factory.js';
 
 import prospectGynoGymCalicut from './gyno-gym-calicut.js';
 
+import prospectLigerFitnessChelavoor from './liger-fitness-chelavoor.js';
+
 const prospects = {
   'sample': sample,
 
@@ -366,6 +368,8 @@ const prospects = {
   'fitness-factory': prospectFitnessFactory,
 
   'gyno-gym-calicut': prospectGynoGymCalicut,
+
+  'liger-fitness-chelavoor': prospectLigerFitnessChelavoor,
 };
 
 export function getProspect(slug) {
