@@ -186,6 +186,8 @@ import prospectLigerFitnessChelavoor from './liger-fitness-chelavoor.js';
 
 import prospectOzFitCalicut from './oz-fit-calicut.js';
 
+import prospectFitproFitnessClub from './fitpro-fitness-club.js';
+
 const prospects = {
   'sample': sample,
 
@@ -374,6 +376,8 @@ const prospects = {
   'liger-fitness-chelavoor': prospectLigerFitnessChelavoor,
 
   'oz-fit-calicut': prospectOzFitCalicut,
+
+  'fitpro-fitness-club': prospectFitproFitnessClub,
 };
 
 export function getProspect(slug) {
